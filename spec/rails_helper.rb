@@ -65,5 +65,5 @@ RSpec.configure do |config|
   config.include FactoryBot::Syntax::Methods
 end
 
-Capybara.defaut_driver = :rack_test
+Capybara.default_driver = :rack_test
 
